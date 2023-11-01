@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Practice</title>
+    <!-- Include Bootstrap CSS from a CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Medical Practice</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="jumbotron text-center">
+    <h1>Welcome to Our Medical Practice</h1>
+    <p>We provide quality healthcare services.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+</section>
+
+<!-- Services Section -->
+<section class="container">
+    <h2>Our Services</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Service 1</h5>
+                    <p class="card-text">Description of service 1.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Service 2</h5>
+                    <p class="card-text">Description of service 2.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Service 3</h5>
+                    <p class="card-text">Description of service 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add more sections as needed -->
+
+<!-- Include Bootstrap and jQuery JavaScript from CDNs -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
